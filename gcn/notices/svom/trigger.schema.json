@@ -18,7 +18,7 @@
     "$schema": true,
     "slew_status": {
       "enum": ["accepted", "rejected", "not_requested"],
-      "description": "Spacecraft slew status"
+      "description": "Whether the platform accepted or rejected a slew requested by ECLAIRs (to its best localisation). If the detection is not significant enough, this value can remain to 'not_requested'"
     },
     "triggered_GRDs": {
       "type": "array",

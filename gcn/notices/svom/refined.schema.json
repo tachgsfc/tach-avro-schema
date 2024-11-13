@@ -3,7 +3,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "unevaluatedProperties": false,
-  "title": "T90 and HR parameters of a burst candidate",
+  "title": "Automatic analysis of a burst candidate light curve",
   "description": "Burst parameter and classification derived from a subset of ECLAIRs and GRM data, or a joint ECLGRM analysis",
   "allOf": [
     { "$ref": "../core/AdditionalInfo.schema.json" },
@@ -20,7 +20,7 @@
     "$schema": true,
     "slew_status": {
       "enum": ["accepted", "rejected", "not-requested"],
-      "description": "Spacecraft slew status"
+      "description": "Whether the platform accepted or rejected a slew requested by ECLAIRs (to its best localisation). If the detection is not significant enough, this value can remain to 'not_requested'"
     }
   }
 }

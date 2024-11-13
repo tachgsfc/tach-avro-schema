@@ -19,7 +19,7 @@
     "$schema": true,
     "use_VT_attitude": {
       "type": "boolean",
-      "description": "If True, the platform uses the VT quaternions instead of the standard star tracker. This leads to an improved localization."
+      "description": "If True, the platform is in high stability mode (uses the VT quaternions instead of the standard star tracker, which leads to an improved localization)."
     }
   }
 }
