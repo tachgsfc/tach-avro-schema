@@ -17,7 +17,7 @@
     },
     "time_resolution": {
       "type": "number",
-      "description": "Time resolution used for the source search, specified in milliseconds [ms]."
+      "description": "Time resolution used for the source search [ms]"
     },
     "observation_start": {
       "type": "string",
