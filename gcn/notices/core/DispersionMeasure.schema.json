@@ -17,7 +17,7 @@
     },
     "dm_gal_ne_2001_max": {
       "type": "number",
-      "description": "Estimated contribution to the dispersion measure [pc/cm^3], from the Galaxy using the NE2001 model ."
+      "description": "Estimated contribution to the dispersion measure [pc/cm^3], from the Galaxy using the NE2001 model."
     }
   }
 }
