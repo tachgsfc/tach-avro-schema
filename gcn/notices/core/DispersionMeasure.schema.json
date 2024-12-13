@@ -7,7 +7,7 @@
   "properties": {
     "dm": {
       "type": "number",
-      "description": "Dispersion measure (DM) of the burst, representing the integrated column density of free electrons along the line of sight [pc/cm^3]."
+      "description": "Dispersion measure (DM) of the burst [pc/cm^3], representing the integrated column density of free electrons along the line of sight."
     },
     "dm_error": {
       "type": "array",
@@ -17,7 +17,7 @@
     },
     "dm_gal_ne_2001_max": {
       "type": "number",
-      "description": "Estimated contribution to the dispersion measure from the Galaxy using the NE2001 model [pc/cm^3]."
+      "description": "Estimated contribution to the dispersion measure [pc/cm^3], from the Galaxy using the NE2001 model ."
     }
   }
 }
